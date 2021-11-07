@@ -1,4 +1,18 @@
 .App {
-  text-align: center;
+  display: flex;
 }
 
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.showMore {
+  width: 50%;
+  margin-left: 39%;
+}
+
+button {
+  padding-left: 30px;
+  padding-right: 30px;
+}

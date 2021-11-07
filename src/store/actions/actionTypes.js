@@ -1,0 +1,5 @@
+export const AIRLINE_FILTER = 'AIRLINE_FILTER'
+export const SORT_ORDER = 'SORT_ORDER'
+export const SEGMENT_FILTER = 'SEGMENT_FILTER'
+export const PRICE_FILTER = 'PRICE_FILTER'
+export const PAGINATOR = 'PAGINATOR'
