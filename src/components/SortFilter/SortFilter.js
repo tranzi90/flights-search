@@ -11,7 +11,7 @@ const SortFilter = ({ airlines, availableAirlines, updateAirlineFilter,
                      }) => {
 
     const sortLabels = ['по возрастанию цены', 'по убыванию цены', 'по времени в пути']
-    const segmentLabels = ['1 пересадка', 'без пересадок']
+    const segmentLabels = ['без пересадок', '1 пересадка']
 
     return (
         <>
@@ -37,14 +37,14 @@ const SortFilter = ({ airlines, availableAirlines, updateAirlineFilter,
                 </Tab>
 
                 <Tab caption='Цена'>
-                    <NumberInput value={filters.price.from}
+                    <NumberInput value={0}
                                  disabled={false}
-                                 label={`От (${availablePrices.from})`}
+                                 label='От'
                                  onChange={(input) => updatePriceFilter({from: input + 1})}/>
 
-                    <NumberInput value={filters.price.to}
+                    <NumberInput value={10000}
                                  disabled={false}
-                                 label={`До (${availablePrices.to})`}
+                                 label='До'
                                  onChange={(input) => updatePriceFilter({to: input + 1})}/>
                 </Tab>
 
