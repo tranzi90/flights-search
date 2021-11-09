@@ -11,9 +11,11 @@ const Header = ({ carrier, price }) => {
             </div>
             <div className={classes.cost}>
                 <span>
-                {Math.round(price.passengerPrices[0].singlePassengerTotal.amount)}
-                &nbsp;
-                {price.passengerPrices[0].singlePassengerTotal.currency}
+                    {Math.round(
+                        price.passengerPrices[0].singlePassengerTotal.amount
+                    )}
+                    &nbsp;
+                    {price.passengerPrices[0].singlePassengerTotal.currency}
                 </span>
                 <small>Стоимость для одного взрослого пассажира</small>
             </div>

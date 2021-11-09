@@ -1,116 +1,116 @@
 .flight {
-  background: rgb(4, 81, 222);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  padding: 2px;
-  width: 640px;
+    background: rgb(4, 81, 222);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 2px;
+    width: 640px;
 }
 
 .header {
-  display: flex;
-  margin: 0;
-  padding: 0 5px;
-  background: rgb(0, 135, 201);
-  color: white;
-  justify-content: space-between;
-  align-items: center;
-
-  .carrier {
-    background: transparent;
     display: flex;
+    margin: 0;
+    padding: 0 5px;
+    background: rgb(0, 135, 201);
+    color: white;
+    justify-content: space-between;
     align-items: center;
-    font-size: 18px;
 
-    img {
-      height: 30px;
-    }
-  }
+    .carrier {
+        background: transparent;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
 
-  .cost {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-
-    span {
-      font-size: 18px;
-      font-weight: 500;
+        img {
+            height: 30px;
+        }
     }
 
-    small {
-      font-size: 10px;
+    .cost {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        span {
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        small {
+            font-size: 10px;
+        }
     }
-  }
 }
 
 .leg {
-  margin-top: 2px;
-  padding: 5px 10px 3px 10px;
-  background: white;
-  color: black;
-  border-radius: 2px;
+    margin-top: 2px;
+    padding: 5px 10px 3px 10px;
+    background: white;
+    color: black;
+    border-radius: 2px;
 
-  .arrow {
-    color: rgb(0, 135, 201);
-  }
-
-  .secondary {
-    color: rgb(253, 176, 103);
-    font-size: 14px;
-  }
-
-  .info {
-    color: rgb(0, 135, 201);
-    font-size: 14px;
-  }
-
-  .line {
-    margin: 5px 16px;
-  }
-
-  .scheduleLine {
-    margin: 5px 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .transferLine {
-    height: 1px;
-    margin: 12px 50px;
-    background: rgb(149, 149, 149);
-    text-align: center;
-
-    span {
-      position: relative;
-      top: -10px;
-      background-color: white;
-      padding: 2px 5px;
-      color: rgb(253, 176, 103);
-      font-size: 14px;
+    .arrow {
+        color: rgb(0, 135, 201);
     }
-  }
 
-  .underline {
-    height: 1px;
-    margin: 0 5px;
-    background: rgb(224, 224, 224);
-  }
+    .secondary {
+        color: rgb(253, 176, 103);
+        font-size: 14px;
+    }
 
-  small {
-    font-size: 12px;
-  }
+    .info {
+        color: rgb(0, 135, 201);
+        font-size: 14px;
+    }
+
+    .line {
+        margin: 5px 16px;
+    }
+
+    .scheduleLine {
+        margin: 5px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .transferLine {
+        height: 1px;
+        margin: 12px 50px;
+        background: rgb(149, 149, 149);
+        text-align: center;
+
+        span {
+            position: relative;
+            top: -10px;
+            background-color: white;
+            padding: 2px 5px;
+            color: rgb(253, 176, 103);
+            font-size: 14px;
+        }
+    }
+
+    .underline {
+        height: 1px;
+        margin: 0 5px;
+        background: rgb(224, 224, 224);
+    }
+
+    small {
+        font-size: 12px;
+    }
 }
 
 .selectButton {
-  margin: 0;
-  padding: 5px;
-  text-align: center;
-  user-select: none;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    user-select: none;
 
-  color: white;
-  background: rgb(253, 176, 103);
-  font-weight: 500;
-  font-size: 14px;
+    color: white;
+    background: rgb(253, 176, 103);
+    font-weight: 500;
+    font-size: 14px;
 }
