@@ -18,7 +18,7 @@ const Header = ({ carrier, price }) => {
                 <small>Стоимость для одного взрослого пассажира</small>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Header;
+export default Header
