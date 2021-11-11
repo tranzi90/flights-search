@@ -45,9 +45,9 @@ const SortFilter = ({
                 <Tab caption="Фильтровать">
                     {segmentLabels.map((el, index) => (
                         <Checker
-                            checked={filters.segment.indexOf(index + 1) !== -1}
+                            checked={filters.segment.includes(index + 1)}
                             disabled={
-                                availableSegments.indexOf(index + 1) === -1
+                                !availableSegments.includes(index + 1)
                             }
                             label={el}
                             key={index}
