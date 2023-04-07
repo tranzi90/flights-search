@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/flights-search/static/css/main.72617b4b.chunk.css",
-    "main.js": "/flights-search/static/js/main.73278f5c.chunk.js",
-    "main.js.map": "/flights-search/static/js/main.73278f5c.chunk.js.map",
-    "runtime-main.js": "/flights-search/static/js/runtime-main.8a5a4824.js",
-    "runtime-main.js.map": "/flights-search/static/js/runtime-main.8a5a4824.js.map",
-    "static/js/2.ab22fd5e.chunk.js": "/flights-search/static/js/2.ab22fd5e.chunk.js",
-    "static/js/2.ab22fd5e.chunk.js.map": "/flights-search/static/js/2.ab22fd5e.chunk.js.map",
+    "main.css": "/flights-search/static/css/main.29cbb4b4.css",
+    "main.js": "/flights-search/static/js/main.1b74210f.js",
     "index.html": "/flights-search/index.html",
-    "static/css/main.72617b4b.chunk.css.map": "/flights-search/static/css/main.72617b4b.chunk.css.map",
-    "static/js/2.ab22fd5e.chunk.js.LICENSE.txt": "/flights-search/static/js/2.ab22fd5e.chunk.js.LICENSE.txt"
+    "main.29cbb4b4.css.map": "/flights-search/static/css/main.29cbb4b4.css.map",
+    "main.1b74210f.js.map": "/flights-search/static/js/main.1b74210f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a5a4824.js",
-    "static/js/2.ab22fd5e.chunk.js",
-    "static/css/main.72617b4b.chunk.css",
-    "static/js/main.73278f5c.chunk.js"
+    "static/css/main.29cbb4b4.css",
+    "static/js/main.1b74210f.js"
   ]
 }
